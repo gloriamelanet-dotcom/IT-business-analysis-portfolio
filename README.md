@@ -75,3 +75,54 @@ The company should:
 
 ## 🚀 Conclusion
 This project demonstrates how data analysis can be used to uncover business insights and support better decision-making.
+
+student-analysis.ipynb
+
+# 🎓 Student Performance Analysis
+
+## 📌 Objective
+
+The goal of this project is to analyze student academic performance using data analysis techniques to identify trends, strengths, and areas that require improvement.
+
+## 🛠 Tools Used
+
+* Python
+* Pandas
+* Matplotlib
+* Jupyter Notebook
+
+## 📂 Dataset
+
+* Student performance dataset (CSV file) containing marks for:
+
+  * Math
+  * English
+  * Science
+
+## 🔍 Process
+
+* Loaded the dataset using Pandas
+* Checked for missing values and understood data structure
+* Calculated average marks per subject
+* Created a total score for each student
+* Identified top-performing students
+* Visualized data using bar charts and histograms
+
+## 📈 Key Insights
+
+* Math has the lowest average score, indicating a need for academic intervention
+* Science is the highest-performing subject overall
+* Top-performing students consistently score above 85 across all subjects
+* Most students fall within the 70–90 mark range
+
+## 📊 Visualizations
+
+* Bar chart showing average marks per subject
+* Histogram showing distribution of Math scores
+
+![Average Marks](images/average_marks.png)
+![Math Distribution](images/math_distribution.png)
+
+## 🚀 Conclusion
+
+This analysis highlights key academic trends and provides insights that can help educators improve student performance by focusing on weaker subjects and supporting struggling students.
