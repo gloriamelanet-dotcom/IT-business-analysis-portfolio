@@ -126,3 +126,80 @@ The goal of this project is to analyze student academic performance using data a
 ## 🚀 Conclusion
 
 This analysis highlights key academic trends and provides insights that can help educators improve student performance by focusing on weaker subjects and supporting struggling students.
+
+customer-analysis
+
+# 📉 Customer Satisfaction Analysis
+
+## 📌 Objective
+
+The goal of this project is to analyze customer satisfaction data to identify key factors affecting customer experience and provide actionable business recommendations.
+
+## 🛠 Tools Used
+
+* Python
+* Pandas
+* Matplotlib
+* Jupyter Notebook
+
+## 📂 Dataset
+
+* Customer dataset containing:
+
+  * Customer ratings
+  * Response time
+  * Number of complaints
+  * Resolution status
+
+## 🔍 Process
+
+* Loaded and explored the dataset using Pandas
+* Analyzed overall customer satisfaction (average rating)
+* Investigated the relationship between response time and ratings
+* Examined how complaints impact customer satisfaction
+* Evaluated the effect of issue resolution on customer ratings
+* Created visualizations to support findings
+
+## 📈 Key Insights
+
+* Longer response times lead to lower customer ratings
+* Customers with more complaints tend to give lower ratings
+* Unresolved issues significantly reduce customer satisfaction
+* Faster response times (1–3 hours) are associated with higher ratings
+
+## 💼 Business Recommendations
+
+* Improve customer support response time
+* Ensure all customer issues are resolved promptly
+* Implement tracking systems for unresolved complaints
+* Train support teams to handle issues more efficiently
+
+## ⚠️ Technical Note
+
+During the project, an error occurred when saving visualizations:
+
+```
+No such file or directory: 'images/resolution_impact.png'
+```
+
+### 🔍 Reason:
+
+This happened because the `images` folder did not exist or the file path was incorrect at the time of saving.
+
+### ✅ Solution:
+
+* Created the `images` folder manually
+* Updated the file path to ensure correct saving location
+
+Despite this, all visualizations were successfully generated and displayed within the notebook.
+
+## 📊 Visualizations
+
+* Response Time vs Rating (scatter plot)
+* Complaints vs Rating (scatter plot)
+* Resolution Impact on Ratings (bar chart)
+
+## 🚀 Conclusion
+
+This analysis identifies response time and issue resolution as critical drivers of customer satisfaction. Addressing these areas can significantly improve customer experience and retention.
+
